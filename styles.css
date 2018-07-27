@@ -1,0 +1,68 @@
+body{
+	background-color: #FDD39F;
+}
+.nav {
+    
+    background:lightgray;
+    height:0;
+    position:relative;
+    z-index:999
+}
+
+.nav .brend {
+    
+    width:49%;
+    float:left;
+    
+}
+
+.nav .brend h2 {
+    
+    margin:20px 0 7px;
+    color:white;
+    text-transform:uppercase;
+    font-size: 30px;
+}
+
+.nav .links {
+    
+    width:51%;
+    float:left;
+    margin: 20px 0 7px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
+.nav .links  li {
+    
+    display:inline-block;
+    padding:3px 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    cursor:pointer;
+    color:white;
+    transition:all .2s ease-in ;
+    margin-right: 3px;
+}
+
+.nav .links  li a {
+    
+    text-decoration:none;
+    color:white
+}
+
+
+ 
+.nav .links  li.active a,
+.nav .links  li a:hover{
+     color:#1abc9c
+     
+} 
+
+.nav .links li.active ,
+.nav .links li:hover{
+     color:#1abc9c;
+     border-bottom: 2px solid rgb(31, 178, 148);
+    
+}
